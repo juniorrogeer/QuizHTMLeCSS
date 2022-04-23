@@ -1,0 +1,60 @@
+/*PLANO DE FUNDO*/
+
+body {
+    background: rgb(63, 102, 237);
+    background: linear-gradient(90deg, rgba(63, 102, 237, 1) 0%, rgba(4, 233, 208, 0.5718662464985995) 51%, rgba(126, 5, 232, 1) 100%);
+}
+
+
+/*CONTEÚDO DO SITE*/
+
+.saudacao {
+    color: midnightblue;
+    margin: 20px 60px 30px 60px;
+}
+
+header {
+    color: midnightblue;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 45% 0 45%;
+    margin-top: 160px;
+    background-color: antiquewhite;
+    border: 1px solid silver;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px midnightblue;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+article {
+    background-color: antiquewhite;
+    border: 1px solid silver;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px midnightblue;
+    padding: 10px;
+}
+
+
+/*BOTÕES*/
+
+.btn-danger {
+    margin-left: 0;
+}
+
+.btn-danger:hover {
+    background-color: antiquewhite;
+    color: red;
+    transition: background .80s;
+    display: inline-block;
+}
+
+a {
+    margin-left: 40%;
+}

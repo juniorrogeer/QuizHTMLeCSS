@@ -1,0 +1,57 @@
+/*PLANO DE FUNDO*/
+
+body {
+    background: rgb(63, 102, 237);
+    background: linear-gradient(90deg, rgba(63, 102, 237, 1) 0%, rgba(4, 233, 208, 0.5718662464985995) 51%, rgba(126, 5, 232, 1) 100%);
+}
+
+
+/*"PACOTE"/CONTAINER DA QUESTÃO*/
+
+.container {
+    color: antiquewhite;
+    background-color: blueviolet;
+    border: 1px solid midnightblue;
+    box-shadow: 5px 5px 5px 3px antiquewhite;
+    text-align: center;
+    margin: 30px 0px 0px 100px;
+    border-radius: 5px;
+    width: 450px;
+    /*ajustar o quadro ao texto*/
+    margin: 100px auto;
+    /*centralizar o quadro*/
+}
+
+
+/*TÍTULO - NUMERAÇÃO DA PERGUNTA*/
+
+header {
+    text-align: center;
+}
+
+
+/*TEXTO DA QUESTÃO*/
+
+.pergunta {
+    text-align: justify;
+}
+
+
+/*ALTERNATIVAS*/
+
+.opcoes {
+    font-weight: bolder;
+    text-align: justify;
+}
+
+
+/*BOTÃO DE AVANÇO*/
+
+a {
+    margin: 15px 0px 15px 0px;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: background .60s;
+}
